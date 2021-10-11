@@ -1,23 +1,16 @@
 {
     "website" : {
       "support": "https://discord.gg/milrato",
-      "domain": "http://your-domain.com"
+      "domain": "https://Musicium.rickpop.repl.co"
     },
     "config": {
         "http": {
           "port": 80
         },
-        "https": {
-            "paths": {
-                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
-                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
-                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
-            },
-            "enabled": false,
-            "port": 443
-        },
-        "callback": "http://your-domain.com/callback",
-        "clientID": "",
-        "secret": ""
+
+
+        "callback": "https://Musicium.rickpop.repl.co/callback",
+        "clientID": "896692766954905610",
+        "secret": "bL2Y4Dk71yI-cwfnKXVS9TsoPdPKNliu"
     }
   }
